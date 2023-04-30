@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=300 height=400 style="width: 300px; height: 400px; background: #231F20"></canvas>
-    <script src="BoxSmooth/Build/BoxSmooth.loader.js"></script>
+    <script src="Build/BoxSmooth.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "BoxSmooth/Build/BoxSmooth.data.gz",
-        frameworkUrl: "BoxSmooth/Build/BoxSmooth.framework.js.gz",
-        codeUrl: "BoxSmooth/Build/BoxSmooth.wasm.gz",
+        dataUrl: "Build/BoxSmooth.data.gz",
+        frameworkUrl: "Build/BoxSmooth.framework.js.gz",
+        codeUrl: "Build/BoxSmooth.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "AndreyMelnikov",
         productName: "BoxSmooth",
