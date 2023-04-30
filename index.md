@@ -37,5 +37,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
 ### Rounded box at runtime 2
-<iframe src="BoxSmooth/index.html" height="400" width="300" frameBorder="0"></iframe>
+<iframe src="BoxSmooth/index.html" height="400vh" width="300vh" frameBorder="0"></iframe>
 
