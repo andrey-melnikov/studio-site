@@ -174,9 +174,6 @@
                             })
                     }
                     document.body.appendChild(unityLoader)
-                    if (bridge.platform.id === bridge.PLATFORM_ID.YANDEX) {
-                        bridge.advertisement.showInterstitial()
-                    }
                 })
                 .catch(error => console.error(error))
             
