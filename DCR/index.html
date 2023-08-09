@@ -148,14 +148,14 @@
                     bridge.game.on('visibility_state_changed', state => sendMessageToUnity('OnVisibilityStateChanged', state))
 
                     let unityLoader = document.createElement('script')
-                    unityLoader.src = 'Build/DCR.loader.js'
+                    unityLoader.src = 'Build/Build.loader.js'
                     unityLoader.onload = () => {
                         createUnityInstance(
                             canvas,
                             {
-                                dataUrl: 'Build/DCR.data.unityweb',
-                                frameworkUrl: 'Build/DCR.framework.js.unityweb',
-                                codeUrl: 'Build/DCR.wasm.unityweb',
+                                dataUrl: 'Build/Build.data.unityweb',
+                                frameworkUrl: 'Build/Build.framework.js.unityweb',
+                                codeUrl: 'Build/Build.wasm.unityweb',
                                 streamingAssetsUrl: 'StreamingAssets',
                                 companyName: 'Carrot Games',
                                 productName: 'Draw Crash Race',
